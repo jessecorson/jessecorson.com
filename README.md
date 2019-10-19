@@ -1,6 +1,8 @@
 
 # Start
 
+Press ⌘ + t
+
 ```bash
 cowsay "Jesse Corson"
 ```
