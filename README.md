@@ -1,7 +1,15 @@
 
 # Start
 
-Press ⌘ + t
+### Mac
+
+Press F4 > type Terminal > press return
+
+
+``` bash
+# Install Homebrew and cowsay
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && brew install cowsay
+```
 
 ```bash
 cowsay "Jesse Corson"
@@ -17,7 +25,7 @@ cowsay "Jesse Corson"
 
 
 ```
- ____________
+ _____________
 < Jesse Corson >
  -------------
         \   ^__^
