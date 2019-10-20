@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Jesse Corson',
+  title: 'Jesse Corson | SRE, CISSP, RHCE, AWS Certified',
   description: 'Jesse Corson',
   head: [
     ['link', { rel: "apple-touch-icon", sizes: "57x57", href: "/assets/favicons/apple-icon-57x57.png"}],
