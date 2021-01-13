@@ -1,40 +1,64 @@
-# Jesse Corson
+# This term or next?
+
+<table style="width:100%">
+  <tr>
+    <td><img src="./images/vote-jesse-corson.png" alt="profile" width="550" ></td>
+  </tr>
+</table>
 
 # Start
 
+## Open a terminal
+
+### Linux
+> You might already be in a terminal
+
 ### Mac
+> Reference [this](https://www.howtogeek.com/682770/how-to-open-the-terminal-on-a-mac/) article  
 
-Press F4 > type Terminal > press return
+### Windows
+> Reference [this](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) article  
 
+### ChromeOS
+> Reference [this](https://support.google.com/chromebook/thread/565904?hl=en)  thread  
 
-``` bash
-# Install Homebrew and cowsay
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && brew install cowsay
-```
-
+## Figure out what to do
 ```bash
-cowsay "Jesse Corson"
+###############################################
+# You don't have to do this but it might be fun
+###############################################
+#
+# Install dogsay
+gem install dogsay
+
+# Vote for Jesse
+dogsay "Vote Jesse Corson"
 ```
 <br>
 
-<!-- <table style="width:100%">
-  <tr>
-    <td><img src="./images/jesse_corson.png" alt="profile" width="250"></td>
-    <td><font face="verdana" size="30"> Jesse Corson</font></td>
-  </tr>
-</table> -->
-
 
 ```
- _____________
-< Jesse Corson >
- -------------
-        \   ^__^
-         \  (oo)\_______
-            (__)\       )\/\
-                ||----w |
-                ||     ||
- ^^~~~~^^^^^^~~^^^^^^^^^^^^^^^^^^^~~^^^^^^~~~~~              
+                          _            +-------------------+
+                        ,:'/   _..._   | Vote Jesse Corson |
+                       // ( `""-.._.'  +-------------------+
+                       \| /    6\___  /
+                       |     6      4
+                       |            /
+                       \_       .--'
+                       (_'---'`)
+                       / `'---`()
+                     ,'        |
+     ,            .'`   Chewy  |
+     )\       _.-'             ;
+    / |    .'`   _            /
+  /` /   .'       '.        , |
+ /  /   /           \   ;   | |
+|  \  |            |  .|   | |
+  \  `"|           /.-' |   | |
+   '-..-\       _.;.._  |   |.;-.
+         \    <`.._  )) |  .;-. ))
+         (__.  `  ))-'  \_    ))'
+             `'--"`       `"""`            
 ```
 <br>
 
@@ -57,7 +81,7 @@ webbrowser.open_new("https://github.com/jessecorson")
 ```
 <br>
 
-## Here
+## Go
 
 ```go
 package main
@@ -91,4 +115,8 @@ func main() {
         open("http://www.jessecorson.com")
 }
 ```
-# End
+
+
+#### Running as an Independent Since 2009
+##### Single term
+###### PR's welcome

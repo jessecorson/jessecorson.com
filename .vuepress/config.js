@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Jesse Corson | SRE, CISSP, RHCE, AWS Certified',
-  description: 'Jesse Corson',
+  title: 'Jesse Corson for President 20??',
+  description: 'Jesse Corson for President 20??',
   head: [
     ['link', { rel: "apple-touch-icon", sizes: "57x57", href: "/assets/favicons/apple-icon-57x57.png"}],
     ['link', { rel: "apple-touch-icon", sizes: "60x60", href: "/assets/favicons/apple-icon-60x60.png"}],
