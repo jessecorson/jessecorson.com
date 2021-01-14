@@ -117,6 +117,6 @@ func main() {
 ```
 
 
-#### Running as an Independent Since 2009
+#### Running as an Independent since 2009
 ##### Single term
 ###### PR's welcome
