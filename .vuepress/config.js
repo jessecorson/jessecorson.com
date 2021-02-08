@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Jesse Corson for President 20??',
-  description: 'Jesse Corson for President 20??',
+  title: 'Jesse Corson | Site Reliability Engineer',
+  description: 'Jesse Corson | Site Reliability Engineer',
   head: [
     ['link', { rel: "apple-touch-icon", sizes: "57x57", href: "/assets/favicons/apple-icon-57x57.png"}],
     ['link', { rel: "apple-touch-icon", sizes: "60x60", href: "/assets/favicons/apple-icon-60x60.png"}],

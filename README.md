@@ -1,8 +1,6 @@
-# This term or next?
-
 <table style="width:100%">
   <tr>
-    <td><img src="./images/vote-jesse-corson.png" alt="profile" width="550" ></td>
+    <td><img src="./images/jesse-corson.png" alt="profile" width="550" ></td>
   </tr>
 </table>
 
@@ -32,14 +30,14 @@
 gem install dogsay
 
 # Vote for Jesse
-dogsay "Vote Jesse Corson"
+dogsay "Let's go"
 ```
 <br>
 
 
 ```
                           _            +-------------------+
-                        ,:'/   _..._   | Vote Jesse Corson |
+                        ,:'/   _..._   |     Let's go      |
                        // ( `""-.._.'  +-------------------+
                        \| /    6\___  /
                        |     6      4
@@ -48,7 +46,7 @@ dogsay "Vote Jesse Corson"
                        (_'---'`)
                        / `'---`()
                      ,'        |
-     ,            .'`   Chewy  |
+     ,            .'`          |
      )\       _.-'             ;
     / |    .'`   _            /
   /` /   .'       '.        , |
@@ -116,7 +114,14 @@ func main() {
 }
 ```
 
+```bash
+The tension and worry of many is escalating.
 
-#### Running as an Independent Since 2009
-##### Single term
-###### PR's welcome
+If you need help and do not already have resources please reference the information below.
+
+Taking care of yourself does not mean you are weak. We are all human.
+
+For help finding mental health resources, call the NAMI Helpline at 800-950-NAMI or in a crisis, text "NAMI" to 741741. If you're in crisis, call the National Suicide Prevention Lifeline at 1-800-273-TALK(8255) or contact the Crisis Text Line by texting TALK to 741741.
+
+Don't be afraid to call or text, it'll be worth it, save yourself some grief.
+```
