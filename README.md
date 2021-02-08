@@ -1,8 +1,6 @@
-# This term or next?
-
 <table style="width:100%">
   <tr>
-    <td><img src="./images/vote-jesse-corson.png" alt="profile" width="550" ></td>
+    <td><img src="./images/jesse-corson.png" alt="profile" width="550" ></td>
   </tr>
 </table>
 
@@ -32,14 +30,14 @@
 gem install dogsay
 
 # Vote for Jesse
-dogsay "Vote Jesse Corson"
+dogsay "Let's go"
 ```
 <br>
 
 
 ```
                           _            +-------------------+
-                        ,:'/   _..._   | Vote Jesse Corson |
+                        ,:'/   _..._   |     Let's go      |
                        // ( `""-.._.'  +-------------------+
                        \| /    6\___  /
                        |     6      4
@@ -48,7 +46,7 @@ dogsay "Vote Jesse Corson"
                        (_'---'`)
                        / `'---`()
                      ,'        |
-     ,            .'`   Chewy  |
+     ,            .'`          |
      )\       _.-'             ;
     / |    .'`   _            /
   /` /   .'       '.        , |
@@ -115,27 +113,6 @@ func main() {
         open("http://www.jessecorson.com")
 }
 ```
-
-
-#### Running as an Independent Since 2009
-##### Single term
-###### PR's welcome
-
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-
-In Honor of Officer Howard Liebengood
 
 ```bash
 The tension and worry of many is escalating.
