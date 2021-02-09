@@ -1,4 +1,5 @@
 name: Upload Website
+environment: main
 
 on:
   push:
