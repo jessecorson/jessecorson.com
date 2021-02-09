@@ -8,3 +8,4 @@ sync:
 	aws s3 sync --delete .vuepress/dist/ s3://www.jessecorson.com
 
 publish: build sync
+
