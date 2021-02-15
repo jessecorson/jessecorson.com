@@ -8,6 +8,9 @@
 
 ## Open a terminal
 
+### Browser
+> Use [Google Cloud Shell](https://console.cloud.google.com/home/dashboard?cloudshell=true)
+
 ### Linux
 > You might already be in a terminal
 
