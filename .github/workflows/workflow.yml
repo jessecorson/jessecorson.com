@@ -4,6 +4,7 @@ on:
   push:
     branches:
     - main
+    - public
 
 jobs:
   build:
@@ -20,12 +21,6 @@ jobs:
         TARGET_BRANCH: public
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: .vuepress/dist/
-
-on:
-  push:
-    branches:
-    - public
-jobs:
   sync:
     environment: main
     runs-on: ubuntu-latest
