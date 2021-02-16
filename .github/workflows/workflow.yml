@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
-      uses: actions/checkout@public
+      uses: actions/checkout@main
     - name: sync
       uses: jakejarvis/s3-sync-action@master
       with:
