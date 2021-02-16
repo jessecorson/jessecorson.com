@@ -4,26 +4,26 @@
   </tr>
 </table>
 
-# Start
+## Start
 
-## Open a terminal
+### Open a terminal
 
-### Browser
+#### Browser
 > Use [Google Cloud Shell](https://console.cloud.google.com/home/dashboard?cloudshell=true)
 
-### Linux
+#### Linux
 > You might already be in a terminal
 
-### Mac
+#### Mac
 > Reference [this](https://www.howtogeek.com/682770/how-to-open-the-terminal-on-a-mac/) article  
 
-### Windows
+#### Windows
 > Reference [this](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) article  
 
-### ChromeOS
+#### ChromeOS
 > Reference [this](https://support.google.com/chromebook/thread/565904?hl=en)  thread  
 
-## Figure out what to do
+### Figure out what to do
 ```bash
 ###############################################
 # You don't have to do this but it might be fun
@@ -63,7 +63,7 @@ dogsay "Let's go"
 ```
 <br>
 
-## LinkedIn
+### LinkedIn
 
 ```bash
 open https://www.linkedin.com/in/jessecorson
@@ -71,7 +71,7 @@ open https://www.linkedin.com/in/jessecorson
 
 <br>
 
-## GitHub
+### GitHub
 
 ```python
 #!/usr/bin/env python3
@@ -82,7 +82,7 @@ webbrowser.open_new("https://github.com/jessecorson")
 ```
 <br>
 
-## Go
+### Go
 
 ```go
 package main
@@ -117,7 +117,7 @@ func main() {
 }
 ```
 
-# Reminder
+## Reminder
 ```bash
 Due to world events during the past many months, the tension and worry of many is escalating.
 

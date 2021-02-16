@@ -4,6 +4,7 @@
     "license": "Apache License 2.0",
     "scripts": {
         "build": "yarn add -D vuepress && which vuepress && vuepress build",
+        "sync": "aws s3 sync --delete .vuepress/dist/ s3://www.jessecorson.com",
         "test": "yarn add -D vuepress && which vuepress && vuepress dev"
     },
     "devDependencies": {
