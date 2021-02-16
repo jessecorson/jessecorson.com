@@ -127,5 +127,3 @@ Taking care of yourself does not mean you are weak. We are all human.
 
 For help finding mental health resources, call the NAMI Helpline at 800-950-NAMI or in a crisis, text "NAMI" to 741741. If you're in crisis, call the National Suicide Prevention Lifeline at 1-800-273-TALK(8255) or contact the Crisis Text Line by texting TALK to 741741.
 ```
-
-

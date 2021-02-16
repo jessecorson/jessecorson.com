@@ -3,7 +3,7 @@ name: Publish Website
 on:
   push:
     branches:
-      - master
+      - main
   # schedule:
   #   - cron: '20 13 * * *'
 
