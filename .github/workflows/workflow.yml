@@ -3,35 +3,21 @@ name: Publish Website
 on:
   push:
     branches:
-    - main
-    - public
+      - master
+  # schedule:
+  #   - cron: '20 13 * * *'
 
 jobs:
   build:
-    environment: main
     runs-on: ubuntu-latest
     steps:
-    - name: checkout
-      uses: actions/checkout@main
-    - name: build
-      uses: jenkey2011/vuepress-deploy@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: jessecorson/jessecorson.com
-        BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: .vuepress/dist/
-  sync:
-    environment: main
-    runs-on: ubuntu-latest
-    steps:
-    - name: checkout
-      uses: actions/checkout@main
-    - name: sync
-      uses: jakejarvis/s3-sync-action@master
-      with:
-        args: --acl public-read --follow-symlinks --delete
-      env:
-        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: 'us-east-1' # optional: defaults to us-east-1
+      - uses: actions/checkout@main
+        with:
+          fetch-depth: 1
+      - name: Run Makefile
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: 'us-east-1' # optional: defaults to us-east-1
+        run: make publish
