@@ -1,8 +1,5 @@
-init:
-	yarn add vuepress
-
 build:
-	vuepress build
+	yarn build
 
 test:
 	vuepress dev
@@ -10,6 +7,6 @@ test:
 sync:
 	aws s3 sync --delete .vuepress/dist/ s3://www.jessecorson.com
 
-publish: init build sync
+publish: build sync
 
 
