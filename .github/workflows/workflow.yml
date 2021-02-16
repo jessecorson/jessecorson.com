@@ -4,14 +4,13 @@ on:
   push:
     branches:
     - main
-
 jobs:
-  deploy:
+  build:
     environment: main
     runs-on: ubuntu-latest
     steps:
     - name: checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@main
     - name: build
       uses: jenkey2011/vuepress-deploy@master
       env:
@@ -20,6 +19,12 @@ jobs:
         TARGET_BRANCH: main
         BUILD_SCRIPT: make build
         BUILD_DIR: .vuepress/dist/
+  deploy:
+    environment: main
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@main
     - name: sync
       uses: jakejarvis/s3-sync-action@master
       with:
