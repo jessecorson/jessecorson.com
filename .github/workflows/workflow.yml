@@ -1,11 +1,12 @@
-name: Upload Website
+name: Publish Website
 
 on:
   push:
     branches:
     - main
+
 jobs:
-  build:
+  publish:
     environment: main
     runs-on: ubuntu-latest
     steps:
@@ -19,12 +20,6 @@ jobs:
         TARGET_BRANCH: main
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: .vuepress/dist/
-  deploy:
-    environment: main
-    runs-on: ubuntu-latest
-    steps:
-    - name: checkout
-      uses: actions/checkout@main
     - name: sync
       uses: jakejarvis/s3-sync-action@master
       with:
