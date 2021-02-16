@@ -119,7 +119,7 @@ func main() {
 
 # Reminder
 ```bash
-Due to world events over the past many months the tension and worry of many is escalating.
+Due to world events during the past many months, the tension and worry of many is escalating.
 
 If you need help and do not already have resources please reference the information below.
 
