@@ -117,14 +117,13 @@ func main() {
 }
 ```
 
+# Reminder
 ```bash
-The tension and worry of many is escalating.
+Due to world events over the past many months the tension and worry of many is escalating.
 
 If you need help and do not already have resources please reference the information below.
 
 Taking care of yourself does not mean you are weak. We are all human.
 
 For help finding mental health resources, call the NAMI Helpline at 800-950-NAMI or in a crisis, text "NAMI" to 741741. If you're in crisis, call the National Suicide Prevention Lifeline at 1-800-273-TALK(8255) or contact the Crisis Text Line by texting TALK to 741741.
-
-Don't be afraid to call or text, it'll be worth it, save yourself some grief.
 ```
