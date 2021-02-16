@@ -10,14 +10,18 @@ jobs:
     environment: main
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: vuepress-deploy
+    - name: checkout
+      uses: actions/checkout@master
+    - name: build
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: jessecorson/jessecorson.com
         TARGET_BRANCH: main
-    - uses: jakejarvis/s3-sync-action@master
+        BUILD_SCRIPT: make build
+        BUILD_DIR: .vuepress/dist/
+    - name: sync
+      uses: jakejarvis/s3-sync-action@master
       with:
         args: --acl public-read --follow-symlinks --delete
       env:
