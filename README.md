@@ -119,9 +119,9 @@ func main() {
 
 ## Reminder
 ```bash
-Due to world events during the past many months, the tension and worry of many is escalating.
+Due to world events during the past months, the tension and worry of many is rising.
 
-If you need help and do not already have resources please reference the information below.
+If you need help and do not already have resources, please reference the information below.
 
 Taking care of yourself does not mean you are weak. We are all human.
 
