@@ -1,1 +1,4 @@
 .DS_Store
+.vuepress
+node_modules
+yarn.lock

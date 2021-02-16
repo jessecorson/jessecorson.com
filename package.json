@@ -3,7 +3,7 @@
     "author": "Jesse Corson",
     "license": "Apache License 2.0",
     "scripts": {
-        "build": "yarn add -D vuepress && vuepress build"
+        "build": "yarn add -D vuepress && which vuepress && vuepress build"
     },
     "devDependencies": {
         "vuepress": "^1.8.1"
