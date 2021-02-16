@@ -1,0 +1,11 @@
+{
+    "homepage": "https://github.com/jessecorson/jessecorson.com#readme",
+    "author": "Jesse Corson",
+    "license": "Apache License 2.0",
+    "scripts": {
+        "build": "yarn add -D vuepress && vuepress build"
+    },
+    "devDependencies": {
+        "vuepress": "^1.8.1"
+    }
+}
