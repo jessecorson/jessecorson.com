@@ -32,7 +32,7 @@
 # Install dogsay
 gem install dogsay
 
-# Vote for Jesse
+# Speak
 dogsay "Let's go"
 ```
 <br>
