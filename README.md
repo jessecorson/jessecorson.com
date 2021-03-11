@@ -1,8 +1,41 @@
-<table style="width:100%">
-  <tr>
-    <td><img src="./images/jesse-corson.png" alt="profile" width="550" ></td>
-  </tr>
-</table>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+</style>
+</head>
+
+<img src="./images/jesse-corson.png" alt="profile" width="550">
+<br>
+<br>
 
 ## Start
 
@@ -127,4 +160,11 @@ Taking care of yourself does not mean you are weak. We are all human.
 
 For help finding mental health resources, call the NAMI Helpline at 800-950-NAMI or in a crisis, text "NAMI" to 741741. If you're in crisis, call the National Suicide Prevention Lifeline at 1-800-273-TALK(8255) or contact the Crisis Text Line by texting TALK to 741741.
 ```
-
+<br>
+<br>
+<br>
+<center>
+<a href="https://www.facebook.com/jessecor" class="fa fa-facebook"></a>
+<a href="https://www.linkedin.com/in/jessecorson/" class="fa fa-linkedin"></a>
+<a href="https://twitter.com/jessecorson" class="fa fa-twitter"></a>
+</center>
