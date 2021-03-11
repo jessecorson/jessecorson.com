@@ -5,7 +5,8 @@
     "scripts": {
         "build": "yarn add -D vuepress && which vuepress && vuepress build",
         "sync": "aws s3 sync --delete .vuepress/dist/ s3://www.jessecorson.com",
-        "test": "yarn add -D vuepress && which vuepress && vuepress dev"
+        "test": "yarn add -D vuepress && which vuepress && vuepress dev",
+        "pr": "open https://github.com/jessecorson/jessecorson.com/compare/dev?expand=1"
     },
     "devDependencies": {
         "vuepress": "^1.8.2"
