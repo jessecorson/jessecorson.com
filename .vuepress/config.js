@@ -2,6 +2,7 @@ module.exports = {
   title: 'Jesse Corson | Site Reliability Engineer',
   description: 'Jesse Corson | Site Reliability Engineer',
   head: [
+    ['link', { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"}],
     ['link', { rel: "apple-touch-icon", sizes: "57x57", href: "/assets/favicons/apple-icon-57x57.png"}],
     ['link', { rel: "apple-touch-icon", sizes: "60x60", href: "/assets/favicons/apple-icon-60x60.png"}],
     ['link', { rel: "apple-touch-icon", sizes: "72x72", href: "/assets/favicons/apple-icon-72x72.png"}],
@@ -19,6 +20,12 @@ module.exports = {
     ['meta', { name: "msapplication-TileColor", content: "#ffffff"}],
     ['meta', { name: "msapplication-TileImage", content: "/assets/favicons/ms-icon-144x144.png"}],
     ['meta', { name: "theme-color", content: "#ffffff"}],
-  ]
+  ],
+  themeConfig: {
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'LinkedIn', link: 'https://www.linkedin.com/in/jessecorson/' },
+    ]
+  }
 }
 
