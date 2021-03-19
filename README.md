@@ -32,7 +32,7 @@
 </style>
 </head>
 
-<img src="./images/jesse-corson.png" alt="profile" width="550">
+<a href="https://www.linkedin.com/in/jessecorson"><img src="./images/jesse-corson.png" alt="Jesse Corson Photo" width="550"></a>
 <br>
 <br>
 
